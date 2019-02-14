@@ -3,6 +3,6 @@ class SecretsController < ApplicationController
   end
   
   def show
-    redirect_to 
+    redirect_to controller: 'sessions', action: 'new' unless session[:name]
   end
 end

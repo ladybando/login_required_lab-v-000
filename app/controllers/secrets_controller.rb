@@ -3,6 +3,6 @@ class SecretsController < ApplicationController
   end
   
   def show
-    redirect_to4
+    redirect_to 
   end
 end

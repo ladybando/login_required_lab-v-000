@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#create'
   post '/logout', to: 'sessions#destroy'
 
-   root 'application#home'
+   root 'application#index'
   get '/secret', to: 'secrets#show'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

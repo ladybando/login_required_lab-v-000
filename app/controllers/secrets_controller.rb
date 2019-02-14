@@ -1,7 +1,7 @@
 class SecretsController < ApplicationController
   before_action :require_login
   
-  def new
+  def index
   end
   
   def show
